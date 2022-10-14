@@ -1,0 +1,92 @@
+{
+  "Nick Schueler": {
+    "role": "President",
+    "major": "Mechanical Engineering",
+    "grad_year": "'24",
+    "bio": "I have been involved with robotics for many years so it's nice to see a club finally take form at RPI. I look forward to seeing what we can accomplish. ",
+    "email": "schuen@rpi.edu",
+    "img": "img/leadership/Nick.jpg",
+    "bg_color": "#d6001c",
+    "color": "#ffffff"
+  },
+  "Cullen Sheridan": {
+    "role": "Vice-President",
+    "major": "Industrial & Systems Engineering",
+    "grad_year": "'25",
+    "bio": "I am a second year ISE student and helped to found the club. There are so many people devoted to robotics on campus and I'm excited to see how the club will grow. I have always been interested in robotics and have built many in my time, even a few that work. My goal is to make a fleet of couch robots so no student has to walk to class again.",
+    "email": "sheric@rpi.edu",
+    "img": "img/leadership/Cullen.jpg",
+    "bg_color": "#ffffff",
+    "color": "#d6001c"
+  },
+  "John Lockwood": {
+    "role": "Safety Officer",
+    "major": "Mechanical Engineering",
+    "grad_year": "'25",
+    "bio": "For most of my life I have been known as \"the guy who is always falling,\" or \"the guy who always has 3 cuts on his hands,\" so... can't wait to be known as the safety officer!",
+    "email": "lockwg@rpi.edu",
+    "img": "img/leadership/John.jpg",
+    "bg_color": "#d6001c",
+    "color": "#ffffff"
+  },
+  "Molly Vitkevich": {
+    "role": "Secretary",
+    "major": "Mechanical Engineering",
+    "grad_year": "'25",
+    "bio": " I love fencing, frogs, and baking. I hope to study creative applications of robotics like biomimetics!",
+    "email": "vitkem@rpi.edu",
+    "img": "img/leadership/Molly.jpg",
+    "bg_color": "#ffffff",
+    "color": "#d6001c"
+  },
+  "Liam Keegan": {
+    "role": "Treasurer",
+    "major": "Electrical Engineering + Computer & Systems Engineering",
+    "grad_year": "'24",
+    "bio": "I am a third year student at Rensselaer, and in addition to the Robotics Club, I am involved with Club Baseball and the Spikeball Club. I am not a business major, but they made me the treasurer anyway, so I am excited to build some robots and make various irresponsible purchases with club funds.",
+    "email": "keegaw@rpi.edu",
+    "img": "img/leadership/Liam.jpg",
+    "bg_color": "#d6001c",
+    "color": "#ffffff"
+  },
+  "Amar Maksumić": {
+    "role": "Social Media Officer",
+    "major": "Computer Science + Computer & Systems Engineering",
+    "grad_year": "'25",
+    "bio": "I understand that, with my agreement, RPI Robotics have put out a press release last semester saying that I will be Social Media Officer. This is correct and I have signed a contract with RPI Robotics for the Fall 2022 Term. I will be Social Media Officer for RPI Robotics during the current academic term. [Oscar Piastri]",
+    "email": "maksua@rpi.edu",
+    "img": "img/leadership/Amar.jpg",
+    "bg_color": "#ffffff",
+    "color": "#d6001c"
+  },
+  "Thomas Byrne": {
+    "role": "General Representative, FIRST Ambassador",
+    "major": "Computer & Systems Engineering",
+    "grad_year": "'25",
+    "bio": "I'm a second year CSE major. I've done about everything you could do with robotics in high school, VEX VRC, FRC, SeaPerch, and mentored VEX IQ, FTC, and FLL. Do I sleep? No. I'm experienced in CAD(Autodesk Inventor - ask me to teach you Solidworks and we're no longer friends) and Software Design. I also work at the Forge, so stop by sometime to say hi! I plan on going into applied machine learning in robotics - specifically locomotion. As the Club Rep and FIRST Ambassador you'll see me at most events and outreach. Do you know ~The Muffin Man~?",
+    "email": "byrnet2@rpi.edu",
+    "img": "img/leadership/Thomas.jpg",
+    "bg_color": "#d6001c",
+    "color": "#ffffff"
+  },
+  "Jayden Smith": {
+    "role": "General Representative",
+    "major": "Mechanical Engineering",
+    "grad_year": "'25",
+    "bio": "During my time as general representative, I hope to help others learn about industrialization, automation, and sustainability. When I'm not in robotics, I'm in NSBE, SHPE, or Student Government. \nFun fact: I love going on the most dangerous roller-coasters whenever I'm in an amusement park.",
+    "email": "smithj32@rpi.edu",
+    "img": "img/leadership/Jayden.jpg",
+    "bg_color": "#ffffff",
+    "color": "#d6001c"
+  },
+  "Sean Fang": {
+    "role": "General Representative",
+    "major": "Computer & Systems Engineering",
+    "grad_year": "'25",
+    "bio": "I am a 2nd year CSE major. I've been apart of FRC and have worked on a restaurant serving robot. I am excited to be able to do more of the same, at least that is \"El Plan\".",
+    "email": "fangs3@rpi.edu",
+    "img": "img/leadership/Sean.jpg",
+    "bg_color": "#d6001c",
+    "color": "#ffffff"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "Rooben": {
+    "birthday": "September 5th, 2022",
+    "model": "iRobot Create 3",
+    "projects": "Laser Tag Robots",
+    "desc": "hello world!",
+    "img": "img/robots/rooben.jpg",
+    "bg_color": "#175F30",
+    "color": "#ffffff"
+  },
+  "Oculus": {
+    "birthday": "September 1st, 2022",
+    "model": "Yahboom Transbot",
+    "projects": "N/a",
+    "desc": "hello world!",
+    "img": "img/robots/oculus.jpeg",
+    "bg_color": "#072A6C",
+    "color": "#ffffff"
+  },
+  "Bean Sprout": {
+    "birthday": "October 5th, 2022",
+    "model": "Hello Robot Stretch RE1",
+    "projects": "Canonical Subproblems for Robot Inverse Kinematics, Various RPI Research Projects",
+    "desc": "hello world!",
+    "img": "img/robots/bean_sprout.jpg",
+    "bg_color": "#ffffff",
+    "color": "#333"
+  },
+  "Huskies": {
+    "birthday": "The huskies have seen dinosaurs in their time.",
+    "model": "Clearpath Robotics Husky A200",
+    "projects": "Various RPI Research Projects",
+    "desc": "hello world!",
+    "img": "img/robots/huskies.jpg",
+    "bg_color": "#ffffff",
+    "color": "#333"
+  }
+}

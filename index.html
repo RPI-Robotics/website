@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home | RPI Robotics</title>
+  <meta name='author' content='Amar Maksumić'>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="icon" href="img/ico/favicon.ico">
+
+  <link rel='preconnect' href='https://fonts.googleapis.com'>
+  <link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css2?family=Raleway&display=swap' rel='stylesheet'>
+
+  <link rel='stylesheet' type='text/css' href='css/index.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script> 
+  $(function(){
+    $('#navbar_cont').load('html/navbar.html')
+    if (window.matchMedia("(max-width: 1000px)").matches) $('#cont').load('html/m_home.html')
+    else $('#cont').load('html/home.html')
+    $('#footer').load('html/footer.html')
+    let total = 6;
+    var num = Math.ceil( Math.random() * total );
+    document.body.background = 'img/background/'+num+'.webp';
+    document.body.style.backgroundRepeat = 'repeat';
+    document.body.style.backgroundAttachment = 'fixed';
+  });
+</script> 
+</head>
+<body>
+  <div id='page_stripe' style='height: 100%; display: block; position: absolute;'></div>
+  <div id='navbar_cont'></div>
+  <center>
+    <div id='page_cont'>
+      <div id='cont'></div>
+      <div id='footer'></div>
+    </div>
+  </center>
+</body>
+
+</html>
