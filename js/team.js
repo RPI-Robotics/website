@@ -67,7 +67,8 @@ $.getJSON('./files/team.json', function(json_data) {
     let data = json_data[person]
 
     let cell = document.createElement('TD')
-    cell.setAttribute('style', 'width: 30%; color: #fff; border-right: solid 1px #fff; border-left: solid 1px #fff;')
+    if (counter != 2) cell.setAttribute('style', 'width: 30%; color: #fff; border-right: solid 1px #fff; padding: 15px;')
+    else cell.setAttribute('style', 'width: 30%; color: #fff; padding: 15px;')
 
     fill_card(cell, person, data)
 
