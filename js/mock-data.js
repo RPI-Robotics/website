@@ -423,6 +423,116 @@ var events = [
     "title": "General Meeting",
     "location": "Walker 6113",
     "state": "Free"
+  },
+  {
+    "id": 25,
+    "attendees": ["Team"],
+    "body": null,
+    "calendarId": "1",
+    "start": "2023-01-19T18:00:00",
+    "end": "2023-01-19T19:00:00",
+    "title": "General Meeting",
+    "location": "Walker 6113",
+    "state": "Free"
+  },
+  {
+    "id": 26,
+    "attendees": ["Thomas Byrne, Amar Maksumić, John Lockwood"],
+    "body": "Members can come to the shop to work on their projects or experiment with the robots we have.",
+    "calendarId": "2",
+    "start": "2023-01-20T15:00:00",
+    "end": "2023-01-20T18:00:00",
+    "title": "Open Shop Hours",
+    "location": "Low 8214",
+    "state": "Free"
+  },
+  {
+    "id": 27,
+    "attendees": ["RAI Team"],
+    "body": "Member induction meeting, project setup",
+    "calendarId": "4",
+    "start": "2023-01-22T14:00:00",
+    "end": "2023-01-22T15:00:00",
+    "title": "RAI Meeting",
+    "location": "Low 8214",
+    "state": "Free"
+  },
+  {
+    "id": 28,
+    "attendees": ["Colton Ritchie, Cullen Sheridan"],
+    "body": "Members can come to the shop to work on their projects or experiment with the robots we have.",
+    "calendarId": "2",
+    "start": "2023-01-23T15:00:00",
+    "end": "2023-01-23T17:00:00",
+    "title": "Open Shop Hours",
+    "location": "Low 8214",
+    "state": "Free"
+  },
+  {
+    "id": 29,
+    "attendees": ["Amar Maksimić, Ryan Grant"],
+    "body": "Members can come to the shop to work on their projects or experiment with the robots we have.",
+    "calendarId": "2",
+    "start": "2023-01-24T15:00:00",
+    "end": "2023-01-24T17:00:00",
+    "title": "Open Shop Hours",
+    "location": "Low 8214",
+    "state": "Free"
+  },
+  {
+    "id": 30,
+    "attendees": ["Jayden Smith"],
+    "body": "Members can come to the shop to work on their projects or experiment with the robots we have.",
+    "calendarId": "2",
+    "start": "2023-01-25T17:00:00",
+    "end": "2023-01-25T18:00:00",
+    "title": "Open Shop Hours",
+    "location": "Low 8214",
+    "state": "Free"
+  },
+  {
+    "id": 31,
+    "attendees": ["Molly Vitkevich"],
+    "body": "Members can come to the shop to work on their projects or experiment with the robots we have.",
+    "calendarId": "2",
+    "start": "2023-01-26T14:00:00",
+    "end": "2023-01-26T15:00:00",
+    "title": "Open Shop Hours",
+    "location": "Low 8214",
+    "state": "Free"
+  },
+  {
+    "id": 31,
+    "attendees": ["Cullen Sheridan, Sean Fang"],
+    "body": "Members can come to the shop to work on their projects or experiment with the robots we have.",
+    "calendarId": "2",
+    "start": "2023-01-26T16:00:00",
+    "end": "2023-01-26T18:00:00",
+    "title": "Open Shop Hours",
+    "location": "Low 8214",
+    "state": "Free"
+  },
+  {
+    "id": 32,
+    "attendees": ["Team"],
+    "body": null,
+    "calendarId": "1",
+    "start": "2023-01-26T18:00:00",
+    "end": "2023-01-26T19:00:00",
+    "title": "General Meeting",
+    "location": "Walker 6113",
+    "state": "Free"
+  },
+  {
+    "id": 33,
+    "attendees": ["Thomas Byrne, Amar Maksumić, John Lockwood"],
+    "body": "Members can come to the shop to work on their projects or experiment with the robots we have.",
+    "calendarId": "2",
+    "start": "2023-01-27T15:00:00",
+    "end": "2023-01-27T18:00:00",
+    "title": "Open Shop Hours",
+    "location": "Low 8214",
+    "state": "Free"
   }
 ]
 
