@@ -1,0 +1,32 @@
+{
+  "Nick Schueler": {
+  "role": "President",
+  "major": "Mechanical Engineering",
+  "grad_year": "'24",
+  "bio": "I have been involved with robotics for many years so it's nice to see a club finally take form at RPI. I look forward to seeing what we can accomplish. ",
+  "email": "schuen@rpi.edu",
+  "img": "img/leadership/Nick.png",
+  "bg_color": "#d6001c",
+  "color": "#ffffff"
+  },
+  "Liam Keegan": {
+    "role": "Treasurer",
+    "major": "Electrical Engineering + Computer & Systems Engineering",
+    "grad_year": "'24",
+    "bio": "I am a third year student at Rensselaer, and in addition to the Robotics Club, I am involved with Club Baseball and the Spikeball Club. I am not a business major, but they made me the treasurer anyway, so I am excited to build some robots and make various irresponsible purchases with club funds.",
+    "email": "keegaw@rpi.edu",
+    "img": "img/leadership/Liam.png",
+    "bg_color": "#d6001c",
+    "color": "#ffffff"
+  },
+  "Molly Vitkevich": {
+    "role": "Secretary",
+    "major": "Mechanical Engineering",
+    "grad_year": "'25",
+    "bio": "",
+    "email": "vitkem@rpi.edu",
+    "img": "img/leadership/Molly.png",
+    "bg_color": "#ffffff",
+    "color": "#d6001c"
+  }
+}

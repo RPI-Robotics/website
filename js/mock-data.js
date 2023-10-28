@@ -4,42 +4,66 @@ var MOCK_CALENDARS = [
     id: '1',
     name: 'Gen Meetings',
     color: '#ffffff',
-    borderColor: '#31c9c6',
-    backgroundColor: '#31c9c6',
-    dragBackgroundColor: '#31c9c6',
+    borderColor: '#b02e26',
+    backgroundColor: '#b02e26',
+    dragBackgroundColor: '#b02e26',
   },
   {
     id: '2',
     name: 'Open Shop Hours',
     color: '#ffffff',
-    borderColor: '#eb3f67',
-    backgroundColor: '#eb3f67',
-    dragBackgroundColor: '#eb3f67',
+    borderColor: '#f9801d',
+    backgroundColor: '#f9801d',
+    dragBackgroundColor: '#f9801d',
   },
   {
     id: '3',
     name: 'PD Workshops',
     color: '#ffffff',
-    borderColor: '#fcbb30',
-    backgroundColor: '#fcbb30',
-    dragBackgroundColor: '#fcbb30',
+    borderColor: '#ffd83d',
+    backgroundColor: '#ffd83d',
+    dragBackgroundColor: '#ffd83d',
   },
   {
     id: '4',
     name: 'Robot Art Installation',
     color: '#ffffff',
-    borderColor: '#90ee90 ',
-    backgroundColor: '#90ee90 ',
-    dragBackgroundColor: '#90ee90 ',
+    borderColor: '#80c71f',
+    backgroundColor: '#80c71f',
+    dragBackgroundColor: '#80c71f',
   },
   {
     id: '5',
     name: 'Other Events',
     color: '#ffffff',
-    borderColor: '#8545d8',
-    backgroundColor: '#8545d8',
-    dragBackgroundColor: '#8545d8',
-  }
+    borderColor: '#3ab3da',
+    backgroundColor: '#3ab3da',
+    dragBackgroundColor: '#3ab3da',
+  },
+  {
+    id: '6',
+    name: 'Combat Robotics',
+    color: '#ffffff',
+    borderColor: '#8932b7',
+    backgroundColor: '#8932b7',
+    dragBackgroundColor: '#8932b7',
+  },
+  {
+    id: '7',
+    name: 'Robotic Arm',
+    color: '#ffffff',
+    borderColor: '#f38caa',
+    backgroundColor: '#f38caa',
+    dragBackgroundColor: '#f38caa',
+  },
+  {
+    id: '8',
+    name: 'Couch Bot',
+    color: '#ffffff',
+    borderColor: '#825432',
+    backgroundColor: '#825432',
+    dragBackgroundColor: '#825432',
+  },
 ];
 
 var EVENT_CATEGORIES = ['milestone', 'task'];
@@ -533,7 +557,30 @@ var events = [
     "title": "Open Shop Hours",
     "location": "Low 8214",
     "state": "Free"
+  },
+  {
+    "id": 34,
+    "attendees": ["Thomas Byrne, Amar Maksumić, John Lockwood, Sean Fang, Luca Vitti, Cullen Sheridan, Wendy Chen, Colton Ritchie, Max Wethern"],
+    "body": "Members can come visit our tabling event at the Albany Airport at the Million Air hangar.",
+    "calendarId": "5",
+    "start": "2023-11-04T10:00:00",
+    "end": "2023-11-04T16:00:00",
+    "title": "Albany Airport Tabling",
+    "location": "16 Jetway Dr, Albany, NY",
+    "state": "Free"
+  },
+  {
+    "id": 35,
+    "attendees": ["Team"],
+    "body": "Project Meeting",
+    "calendarId": "8",
+    "start": "2023-11-02T17:30:00",
+    "end": "2023-11-02T18:30:00",
+    "title": "Couch Bot Project Meeting",
+    "location": "LOW 3130",
+    "state": "Free"
   }
+  
 ]
 
 function generateRandomEvents(viewName, renderStart, renderEnd) {

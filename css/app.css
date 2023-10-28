@@ -133,6 +133,19 @@ input:disabled + label {
     background-color: var(--checkbox-5);
 }
 
+.checkbox.checkbox-6::before {
+    background-color: var(--checkbox-6);
+}
+
+.checkbox.checkbox-7::before {
+    background-color: var(--checkbox-7);
+}
+
+.checkbox.checkbox-8::before {
+    background-color: var(--checkbox-8);
+}
+
+
 .toastui-calendar-popup-section.toastui-calendar-section-button {
     display: none !important;
 }

@@ -44,25 +44,21 @@ function make_link(klass, text, link) {
 function fill_card(card, person, data) {
     // Equip person name
   card.appendChild(make_element('H1', null, person))
-  
+    // Equip person ROLE
+  if (data['role'] != null) card.appendChild(make_element('P', null, data['role']))
+  card.appendChild(make_element('HR', null, null))
+
   // Equip person major 
   if (data['major'] != null) card.appendChild(make_element('P', null, data['major']))
 
   // Equip person year 
   if (data['grad_year'] != null) card.appendChild(make_element('P', null, 'Class of ' + data['grad_year']))
 
-  card.appendChild(make_element('HR', null, null))
-
-  // Equip person ROLE
-  if (data['role'] != null) card.appendChild(make_element('P', null, data['role']))
-
   // Equip person bio 
   if (data['bio'] != null) card.appendChild(make_element('P', null, data['bio']))
 
-  card.appendChild(make_element('HR', null, null))
-
   // Equip person email 
-  if (data['email'] != null) card.appendChild(make_element('P', null, 'Contact ' + person + ': ' +data['email']))
+  if (data['email'] != null) card.appendChild(make_element('P', null, 'Contact ' + ': ' +data['email']))
 }
 
 $.getJSON('./files/leadership.json', function(json_data) {
@@ -84,10 +80,10 @@ $.getJSON('./files/leadership.json', function(json_data) {
     let img_col = document.createElement('TD')
 
     let img_cont = make_img('pad15', data['img'])
-    img_cont.setAttribute('style', 'width: 90%; border-radius: 9%;')
+    img_cont.setAttribute('style', 'width: 90%; border-radius: 10%;')
 
     img_col.appendChild(img_cont)
-    img_col.setAttribute('style', 'width: 40%')
+    img_col.setAttribute('style', 'width: 20%')
 
     let txt_col = document.createElement('TD')
     fill_card(txt_col, person, data)
