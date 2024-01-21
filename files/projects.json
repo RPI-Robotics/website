@@ -1,0 +1,22 @@
+{
+  "Art Installation": {
+    "since": "Spring 2023",
+    "frame": "https://sharing.clickup.com/9011028336/b/h/6-901100862591-2/805737938abeb00",
+    "eta": "Spring 2024",
+    "desc": "A art installation that will be placed behind the front windows of the JEC walkway",
+    "img": "img/robots/rooben.jpg",
+    "bg_color": "#80c71f",
+    "color": "#ffffff"
+  },
+  "Combat Robotics": {
+    "since": "Spring 2023",
+    "frame": "https://sharing.clickup.com/9011028336/l/h/6-901102539667-1/5fd2d7fc11470d4",
+    "eta": "TBD",
+    "desc": "A combat robot made to compete in the NHRL competition",
+    "img": "img/robots/rooben.jpg",
+    "bg_color": "#ffd83d",
+    "color": "#ffffff"
+  }
+
+
+}

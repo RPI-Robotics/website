@@ -40,10 +40,16 @@ async function switchTab (switchTo) {
           $('#cont').load('html/robots.html')
           break;
         case 5:
-          
+          //Bruh why does it not work without this
           $('#page_stripe').animate({width: '0%'}, 600, 'swing');          
           $('#page_cont').animate({'zoom': 1, width: '100%'}, 400, 'swing');
-          $(location).attr('href', 'html/calendar.html');
+          // $(location).attr('href', 'html/calendar.html');
+          // break;
+          $('#cont').load('html/calendar.html')
+          break;
+
+        case 6: 
+          $('#cont').load('html/projects.html')
           break;
         default:
           if (window.matchMedia("(max-width: 1000px)").matches) $('#cont').load('html/m_home.html')
